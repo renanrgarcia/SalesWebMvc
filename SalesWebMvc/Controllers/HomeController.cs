@@ -25,6 +25,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Name"] = "Luis";
+
             return View();
         }
 
